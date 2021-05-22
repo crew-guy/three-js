@@ -105,7 +105,7 @@ moon.position.setX(-9)
 
 scene.add(moon)
 
-//! COMBINING WITH SIMPLE HTML
+//! MOVING CAMERA ONSCROLL
 
 const moveCamera = () => {
   const t = document.body.getBoundingClientRect().top
